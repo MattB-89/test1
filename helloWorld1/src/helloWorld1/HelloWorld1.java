@@ -7,9 +7,12 @@ public class HelloWorld1 {
 		System.out.println("Hello world!!  Again.");
 		System.out.println("Hello yet again!\n");
 		
-		int result = 25 * 3;
+		int intResult = 25 * 3;
 		//System.out.println("\n");
-		System.out.println(result);
+		System.out.println(intResult + "\n");
+		
+		double doubleResult = 25/4;
+		System.out.println(doubleResult + "\n");
 	}
 
 }
